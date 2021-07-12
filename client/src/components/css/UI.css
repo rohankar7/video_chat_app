@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Titillium Web', sans-serif;
+    src: url('../../fonts/TitilliumWeb-Bold.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background-color: rgb(61, 60, 60);
+    font-weight: bold;
+    /* overflow-y: hidden; */
+}
+
+.Login, .Signup, .ManageUser{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(61, 60, 60);
+}
+
+#signUp form{
+    height: 75vh;
+    width: 40vw;
+}
+
+.Signup>form, .Login>form, .ManageUser>form, .passwordResetForm_parent>form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: rgb(41, 151, 202);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 60vh;
+    width: 30vw;
+    border-radius: 20%;
+    box-shadow: 0px 8px 25px rgb(0, 0, 0);
+}
+
+h1{
+    padding-top: 0;
+    padding-bottom: 4vh;
+}
+
+.input_div{
+    padding-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 20vw;
+    padding: 2vh;
+    font-size: large;
+}
+
+.uiButtons{
+    width: 10vw;
+    height: 6vh;
+    padding: 1vh;
+    box-shadow: 0px 5px 20px rgb(24, 38, 49);
+    font-size: large;
+}
+
+.link{
+    padding-top: 3vh;
+}
+.navBar, .navUl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+.navItems{
+    float: left;
+    text-align: center;
+    background-color: white;
+    min-width: 180px;
+    height: 10vh;
+    font-size: 150%;
+    padding-top: 3.5vh;
+    display: block;
+}
+.navItems :hover{
+    background-color: rgb(41, 151, 202);
+}
+.navItems:focus{
+    background-color: rgb(41, 151, 202);
+}
+.Title{
+    font-size: 50px;
+    font-weight: 300;
+    position: relative;
+    top: 10vh;
+    margin-left: auto;
+    text-align: center;
+    color: rgb(39, 49, 56);
+    padding-bottom: 100px;
+}
+.Back>img{
+    position: relative;
+    top: 7vw;
+    left: 40%;
+}
+.Back{
+    background: yellowgreen;
+    width: 100%;
+    height: 100vh;
+}
